@@ -3,5 +3,6 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+    Candidate.create!( name: 'Obama' , party: 'Democrat')
+    Vote.create!(voter_id: '1', candidate_id: '2')
+    Voter.create!(name: 'Ruben', party: 'Dudiesm')
